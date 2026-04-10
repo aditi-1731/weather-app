@@ -46,10 +46,11 @@ weather-app/
 │── requirements.txt
 │── .gitignore
 │── README.md
+```
 
 ---
 
-⚙️ Setup Instructions
+# ⚙️ Setup Instructions
 1. Clone Repository
 git clone https://github.com/aditi-1731/weather-app.git
 cd weather-app
@@ -68,7 +69,7 @@ streamlit run app.py
 
 ---
 
-🌐 Deployment (Streamlit Cloud)
+#🌐 Deployment (Streamlit Cloud)
 
 Add API Key in Secrets:
 API_KEY = "your_openweather_api_key"
@@ -78,14 +79,14 @@ API_KEY = st.secrets["API_KEY"]
 
 ---
 
-🔑 API Used
+#🔑 API Used
 OpenWeather Current Weather API
 OpenWeather 5-Day Forecast API
 👉 https://openweathermap.org/api
 
 ---
 
-📊 What I Learned
+#📊 What I Learned
 Working with REST APIs in Python
 Handling JSON responses
 Building UI with Streamlit
@@ -95,7 +96,7 @@ Building interactive dashboards
 
 ---
 
-🚀 Future Improvements
+#🚀 Future Improvements
 📍 Auto location detection
 📊 Weather charts
 🌙 Dark/light mode
@@ -104,6 +105,6 @@ Building interactive dashboards
 
 ---
 
-👨‍💻 Author
+#👨‍💻 Author
 
 **Aditi Tripathi**
