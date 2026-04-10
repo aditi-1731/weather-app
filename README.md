@@ -1,35 +1,34 @@
 # 🌦️ Weather Dashboard App
 
 A modern real-time weather forecasting web application built using **Streamlit** and the **OpenWeather API**.  
-It provides live weather data, a clean interactive dashboard, and a 5-day forecast for any city in the world.
+It provides live weather updates, a clean UI, and a 5-day forecast for any city in the world.
 
 ---
 
-## 🚀 Live Demo
+# 🚀 Live Demo
 👉 Add your Streamlit deployment link here
 
 ---
 
-## 📸 Preview
-
-👉 Add screenshots of your app here (highly recommended for GitHub)
+# 📸 Preview
+👉 Add screenshots of your app here
 
 ---
 
-## ✨ Features
+# ✨ Features
 
 - 🌍 Search weather by city name  
 - 🌡️ Real-time temperature, feels like, humidity, wind speed  
-- 🌤️ Dynamic weather conditions with icons  
+- 🌤️ Dynamic weather icons  
 - 📅 5-day weather forecast  
-- 🌅 Sunrise and sunset timings  
-- 🎨 Clean dashboard UI using Streamlit  
-- ⚡ Fast API-based live data fetching  
-- 🧠 Error handling for invalid cities & network issues  
+- 🌅 Sunrise & sunset timings  
+- 🎨 Clean Streamlit dashboard UI  
+- ⚡ Fast API integration  
+- 🧠 Error handling for invalid inputs  
 
 ---
 
-## 🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 - Python 🐍  
 - Streamlit 🎈  
@@ -39,7 +38,7 @@ It provides live weather data, a clean interactive dashboard, and a 5-day foreca
 
 ---
 
-## 📁 Project Structure
+# 📁 Project Structure
 
 ```bash
 weather-app/
@@ -48,62 +47,63 @@ weather-app/
 │── .gitignore
 │── README.md
 
-1. Clone the repository
+---
+
+⚙️ Setup Instructions
+1. Clone Repository
 git clone https://github.com/aditi-1731/weather-app.git
 cd weather-app
-2. Install dependencies
-pip install -r requirements.txt
-3. Get API Key
 
-Create a free API key from:
+2. Install Dependencies
+pip install -r requirements.txt
+
+3. Get API Key
 👉 https://openweathermap.org/api
 
-4. Add API Key (LOCAL ONLY)
-
-Create a .env file:
-
+4. Create .env File
 API_KEY=your_openweather_api_key
-5. Run the app
+
+5. Run the App
 streamlit run app.py
+
+---
+
 🌐 Deployment (Streamlit Cloud)
 
-If deploying on Streamlit Cloud:
-
-Add API key in Secrets:
-
+Add API Key in Secrets:
 API_KEY = "your_openweather_api_key"
 
-And update your code:
-
+Update Code:
 API_KEY = st.secrets["API_KEY"]
+
+---
+
 🔑 API Used
 OpenWeather Current Weather API
 OpenWeather 5-Day Forecast API
 👉 https://openweathermap.org/api
-📊 What I Learned
-Working with REST APIs in Python
-Handling JSON responses
-Streamlit UI development
-Environment variables & secrets management
-Debugging real-world API issues
-Building interactive dashboards
-🚀 Future Improvements
-📍 Auto location detection
-📊 Weather charts (temperature trends)
-🌙 Dark/light theme toggle
-🔔 Weather alerts system
-📱 Mobile UI improvements
-👨‍💻 Author
-
-Aditi Tripathi
-GitHub: https://github.com/aditi-1731
-
 
 ---
 
-If you want next upgrade, I can help you make this repo:
+📊 What I Learned
+Working with REST APIs in Python
+Handling JSON responses
+Building UI with Streamlit
+Environment variables & secrets
+Debugging real-world API issues
+Building interactive dashboards
 
-🔥 look like a **top 1% GitHub portfolio project**  
-with badges, banner, screenshots, and deployment polish
+---
 
-Just say: **“make it premium”** 😄
+🚀 Future Improvements
+📍 Auto location detection
+📊 Weather charts
+🌙 Dark/light mode
+🔔 Weather alerts
+📱 Mobile optimization
+
+---
+
+👨‍💻 Author
+
+**Aditi Tripathi**
