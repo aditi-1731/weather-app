@@ -51,6 +51,8 @@ weather-app/
 ---
 
 # ⚙️ Setup Instructions
+
+```bash
 1. Clone Repository
 git clone https://github.com/aditi-1731/weather-app.git
 cd weather-app
@@ -66,43 +68,47 @@ API_KEY=your_openweather_api_key
 
 5. Run the App
 streamlit run app.py
-
+```
 ---
 
 #🌐 Deployment (Streamlit Cloud)
 
+```bash
 Add API Key in Secrets:
 API_KEY = "your_openweather_api_key"
 
 Update Code:
 API_KEY = st.secrets["API_KEY"]
-
+```
 ---
 
 #🔑 API Used
+```bash
 OpenWeather Current Weather API
 OpenWeather 5-Day Forecast API
 👉 https://openweathermap.org/api
-
+```
 ---
 
 #📊 What I Learned
-Working with REST APIs in Python
-Handling JSON responses
-Building UI with Streamlit
-Environment variables & secrets
-Debugging real-world API issues
-Building interactive dashboards
-
+```bash
+-Working with REST APIs in Python
+-Handling JSON responses
+-Building UI with Streamlit
+-Environment variables & secrets
+-Debugging real-world API issues
+-Building interactive dashboards
+```
 ---
 
 #🚀 Future Improvements
-📍 Auto location detection
-📊 Weather charts
-🌙 Dark/light mode
-🔔 Weather alerts
-📱 Mobile optimization
-
+```bash
+-📍 Auto location detection
+-📊 Weather charts
+-🌙 Dark/light mode
+-🔔 Weather alerts
+-📱 Mobile optimization
+```
 ---
 
 #👨‍💻 Author
