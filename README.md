@@ -6,7 +6,7 @@ It provides live weather updates, a clean UI, and a 5-day forecast for any city 
 ---
 
 # 🚀 Live Demo
-👉 Add your Streamlit deployment link here
+https://aditi-1731-weather-app-app-vqrebd.streamlit.app/
 
 ---
 
