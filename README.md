@@ -10,11 +10,6 @@ It provides live weather updates, a clean UI, and a 5-day forecast for any city 
 
 ---
 
-# 📸 Preview
-👉 Add screenshots of your app here
-
----
-
 # ✨ Features
 
 - 🌍 Search weather by city name  
