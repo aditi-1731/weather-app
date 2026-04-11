@@ -71,26 +71,28 @@ streamlit run app.py
 ```
 ---
 
-#🌐 Deployment (Streamlit Cloud)
+# 🌐 Deployment (Streamlit Cloud)
 
 ```bash
-Add API Key in Secrets:
-API_KEY = "your_openweather_api_key"
+-Add API Key in Secrets:
+•API_KEY = "your_openweather_api_key"
 
-Update Code:
-API_KEY = st.secrets["API_KEY"]
+-Update Code:
+•API_KEY = st.secrets["API_KEY"]
 ```
 ---
 
-#🔑 API Used
+# 🔑 API Used
+
 ```bash
-OpenWeather Current Weather API
-OpenWeather 5-Day Forecast API
-👉 https://openweathermap.org/api
+-OpenWeather Current Weather API
+-OpenWeather 5-Day Forecast API
+-👉 https://openweathermap.org/api
 ```
 ---
 
-#📊 What I Learned
+# 📊 What I Learned 
+
 ```bash
 -Working with REST APIs in Python
 -Handling JSON responses
@@ -101,7 +103,8 @@ OpenWeather 5-Day Forecast API
 ```
 ---
 
-#🚀 Future Improvements
+# 🚀 Future Improvements
+
 ```bash
 -📍 Auto location detection
 -📊 Weather charts
@@ -111,6 +114,6 @@ OpenWeather 5-Day Forecast API
 ```
 ---
 
-#👨‍💻 Author
+# 👨‍💻 Author
 
 **Aditi Tripathi**
