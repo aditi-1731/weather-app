@@ -3,6 +3,7 @@ import requests
 import os
 from dotenv import load_dotenv
 from datetime import datetime
+from utils import get_weather_icon, get_forecast
 
 load_dotenv(override=True)
 
@@ -37,7 +38,6 @@ st.write("")
 
 city = st.text_input("Enter city name",value ="Delhi")
 
-
 def get_theme(condition):
     condition = condition.lower()
     if "rain" in condition:
@@ -50,19 +50,6 @@ def get_theme(condition):
         return "🌫 Hazy conditions outside"
     else:
         return "🌍 Weather looks mixed"
-    
-def get_weather_icon(condition):
-    condition = condition.lower()
-    if "cloud" in condition:
-        return "☁️"
-    elif "rain" in condition:
-        return "🌧️"
-    elif "clear" in condition:
-        return "☀️"
-    elif "haze" in condition:
-        return "🌫️"
-    else:
-        return "🌍"
 
 def weather_banner(weather):
     weather = weather.lower()
@@ -77,12 +64,8 @@ def weather_banner(weather):
     else:
         return "🌍 Mixed weather conditions"
 
-def get_forecast(city, API_KEY):
-    url = f"https://api.openweathermap.org/data/2.5/forecast?q={city}&appid={API_KEY}&units=metric"
-    response = requests.get(url)
-    return response.json()
 
-if st.button("Get Weather"):
+if st.button("Get Weather"): 
     if not city.strip():
         st.warning("Please enter a city name")
     elif not API_KEY:
