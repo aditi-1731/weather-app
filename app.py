@@ -7,8 +7,11 @@ from utils import get_weather_icon, get_forecast
 
 load_dotenv(override=True)
 
-API_KEY=os.getenv("API_KEY")
-
+try:
+    API_KEY = st.secrets["API_KEY"]
+except:
+    API_KEY = os.getenv("API_KEY")
+    
 st.set_page_config(page_title="Weather App", page_icon="🌦️")
 
 st.markdown("""
